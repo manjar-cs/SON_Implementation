@@ -6,9 +6,9 @@ dataset	generated	 from	Yelp dataset and to apply the algorithm	on large	dataset
 
 ##### Task1: 
 command to run code :
-
-spark-submit	firstname_lastname_task1.py		<case	number>	<support>	<input_file_path>	<output_file_path>
-
+```
+spark-submit	firstname_lastname_task1.py <casenumber> <support> <input_file_path> <output_file_path>
+```
 case 1:
 calculating	 the	 combinations	 of	 frequent	 businesses	 (as	 singletons,	 pairs,	 triples,	 etc.)	that	 are
 qualified	as	frequent	given	a	support	threshold.	Creating	a	basket	for	each	user	containing	the	
@@ -37,9 +37,9 @@ Exploring	the	Yelp	dataset	to	find	the	frequent	business	sets	(only	case	1).	Joi
 using	the	business.json	and	review.json	to	generate	the	input	user-business	CSV	file.
 
 command to run code:
-
+```
 spark-submit	firstname_lastname_task2.py		<filter	threshold>	<support>	<input_file_path>	<output_file_path>
-  
+``` 
 threshold- To find out	qualified	users	who	reviewed	more	than	k businesses.	(k is	the	filter	threshold)
   
 #### Input files 
